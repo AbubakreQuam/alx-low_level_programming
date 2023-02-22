@@ -6,5 +6,6 @@ int name(){
 	}
 int main(){
 	char value = name();
+	printf("I love programming")
 	return value;
 	}
