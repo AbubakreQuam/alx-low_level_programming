@@ -1,7 +1,6 @@
-#include <stdi0.h>
+#include <stdio.h>
 
 int main(){
 	printf("_putchar");
 	return 0;
 	}
-q
