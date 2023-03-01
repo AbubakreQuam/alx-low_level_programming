@@ -1,6 +1,8 @@
 #include <stdio.h>
-
-
+/**
+ * main - prints _putchar text
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
