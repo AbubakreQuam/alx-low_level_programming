@@ -1,11 +1,6 @@
-#include <stdio.h>
+#include <unistd.h>
 
-int name(){
-	printf("_putchar");
-	return 0;
-	}
-int main(){
-	char value = name();
-	/*printf("I love programming");*/
-	return value;
-	}
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
