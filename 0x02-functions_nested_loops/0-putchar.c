@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints Holberton text
@@ -8,5 +9,6 @@
 int main(void)
 {
 	printf('_putchar');
+	printf('\n');
 	return (0);
 }
